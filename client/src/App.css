@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #222;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #222;
+  padding: 10px;
+}
+
+.grid-container>div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.App-title {
+  align-items: center;
+  margin: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.sign-form {
+  margin: 3px auto;
+}
+
+.sign-form form {
+  background-color: #222;
+  padding: 30px;
+}
+
+.sign-form h2 {
+  margin: 0 0 15px;
+  color: white;
+}
+
+.login-form {
+  margin: 3px auto;
+}
+
+.login-form form {
+  background-color: #222;
+  padding: 30px;
+}
+
+.login-form h2 {
+  margin: 0 0 15px;
+  color: white;
+}
+
+.form-control, .btn {
+  min-height: 38px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.link-li {
+  margin-top: 15px;
+  align-items: center;
+  list-style: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
